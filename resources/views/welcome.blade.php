@@ -6,6 +6,9 @@
         <title>Laravel Multi Lang</title>
     </head>
     <body>
-        {{__('hi there, how are you')}}
+        {{__('common.welcome')}}
+        <br>
+        <a href="{{route('welcome', [], true, 'en')}}">EN</a>
+        <a href="{{route('welcome', [], true, 'es')}}">ES</a>
     </body>
 </html>
