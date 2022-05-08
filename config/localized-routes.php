@@ -20,7 +20,7 @@ return [
      * unlocalized URL's to their localized version.
      * You need to register the fallback route for this to work.
      */
-    'redirect_to_localized_urls' => false,
+    'redirect_to_localized_urls' => true,
 
     /**
      * The status code when redirecting to localized URL's.
@@ -41,7 +41,7 @@ return [
      * If you want to automatically set the locale
      * for localized routes set this to true.
      */
-    'use_locale_middleware' => false,
+    'use_locale_middleware' => true,
 
     /**
      * If true, this package will use 'codezero/laravel-localizer'
