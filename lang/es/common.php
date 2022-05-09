@@ -1,5 +1,8 @@
 <?php
 
 return [
-	'welcome' => 'hola, como estas',
+	'welcome' => [
+		'title' => 'Welcome',
+		'msg' => 'Hola, ¿Como estás?',
+	]
 ];
