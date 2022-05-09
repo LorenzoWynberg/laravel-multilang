@@ -1,0 +1,42 @@
+[
+	{
+    "name":{
+      "en":"Tomato",
+      "es":"Tomate"
+    },
+    "slug":{
+      "en":"tomato",
+      "es":"tomate"
+    }
+  },
+  {
+    "name":{
+      "en":"Pepper",
+      "es":"Chile Dulce"
+    },
+    "slug":{
+      "en":"pepper",
+      "es":"chile-dulce"
+    }
+  },
+  {
+    "name":{
+      "en":"Fruta",
+      "es":"Fruit"
+    },
+    "slug":{
+      "en":"fruit",
+      "es":"fruta"
+    }
+  },
+  {
+    "name":{
+      "en":"Verdura",
+      "es":"Vedgetable"
+    },
+    "slug":{
+      "en":"verdura",
+      "es":"vedgetable"
+    }
+  }
+]

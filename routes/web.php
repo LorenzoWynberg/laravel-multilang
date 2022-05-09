@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Category;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,11 @@ Route::localized(function () {
     Route::get(Lang::uri('welcome'), function () {
         return view('welcome');
     })->name('welcome');
+
+    Route::get(Lang::uri('categories'), function () {
+        $categories = Category::all();
+        return view('categories.index', compact('categories'));
+    })->name('categories.index');
 });
 
 Route::fallback(\CodeZero\LocalizedRoutes\Controller\FallbackController::class)
