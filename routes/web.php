@@ -13,13 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return redirect()->route('welcome');
+});
 
 Route::localized(function () {
     Route::get('/', function () {
+        return redirect()->route('welcome');
+    });
+
+    Route::get(Lang::uri('welcome'), function () {
         return view('welcome');
     })->name('welcome');
 });
-
 
 Route::fallback(\CodeZero\LocalizedRoutes\Controller\FallbackController::class)
     ->middleware(\CodeZero\LocalizedRoutes\Middleware\SetLocale::class);
