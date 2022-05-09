@@ -4,6 +4,9 @@
 @section('id', 'welcome')
 
 @section('content')
-    <h1>{{ __('common.welcome.msg') }}</h1>
+    @include('components.main-nav')
+    <div class="container">
+        <h1>{{ __('common.welcome.msg') }}</h1>
+    </div>
     @include('components.language-switcher')
 @endsection
