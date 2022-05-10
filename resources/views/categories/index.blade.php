@@ -11,5 +11,4 @@
             <p>{{ $c->name }}: {{ $c->slug }}</p>
         @endforeach
     </div>
-    @include('components.language-switcher')
 @endsection

@@ -8,5 +8,6 @@
   </head>
   <body id="@yield('id')">
   	@yield('content')
+    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>

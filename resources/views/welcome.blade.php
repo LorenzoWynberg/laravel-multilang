@@ -8,5 +8,4 @@
     <div class="container">
         <h1>{{ __('common.welcome.msg') }}</h1>
     </div>
-    @include('components.language-switcher')
 @endsection

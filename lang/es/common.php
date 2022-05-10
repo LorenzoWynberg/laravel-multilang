@@ -1,5 +1,5 @@
 <?php
-
+//ES
 return [
 	'welcome' => [
 		'title' => 'Welcome',
@@ -7,5 +7,9 @@ return [
 	],
 	'categories' => [
 		'title' => 'Categorías',
+	],
+	'nav' => [
+		'categories' => 'Categorías',
+		'lang' => 'Idioma',
 	],
 ];
